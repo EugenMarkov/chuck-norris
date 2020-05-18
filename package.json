@@ -2,14 +2,13 @@
   "name": "chuck_norris_jokes_client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://EugenMarkov.github.io/chuck-norris",
+  "homepage": "http://EugenMarkov.github.io/chuck-norris/",
   "author": "Eugen Markov",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.5.1",
     "axios": "^0.19.0",
     "react": "^16.13.1",
-    "gh-pages": "^2.2.0",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.12.0",
     "react-material-ui-form-validator": "^2.0.9",
@@ -26,8 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "browserslist": {
     "production": [
@@ -55,6 +53,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.18.2",
     "style-loader": "^1.0.1"
