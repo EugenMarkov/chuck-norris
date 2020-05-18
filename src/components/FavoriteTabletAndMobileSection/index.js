@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { connect } from "react-redux";
 import v4 from "uuid";
-import FavoriteJokeItem from "../common/FavoriteJokeItem";
+import JokeItem from "../common/JokeItem";
 import useStyles from "./useStyles";
 
 const FavoriteTabletAndMobileSection = ({ favoriteJokes, onClose }) => {
@@ -28,7 +28,7 @@ const FavoriteTabletAndMobileSection = ({ favoriteJokes, onClose }) => {
           Favourite
         </Typography>
       </div>
-      {favoriteJokes.map(el => <FavoriteJokeItem key={v4()} joke={el} />)}
+      {favoriteJokes.map(el => <JokeItem key={v4()} joke={el} favorite />)}
     </div>
   );
 };

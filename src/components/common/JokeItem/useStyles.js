@@ -11,12 +11,19 @@ const useStyles = makeStyles(theme => ({
     boxShadow: "none",
     boxSizing: "border-box",
     display: "flex",
-    [theme.breakpoints.down("xl")]: {
-      maxWidth: 754,
-    },
     [theme.breakpoints.down("xs")]: {
       padding: 20,
     },
+  },
+  favWrapper: {
+    padding: 20,
+    width: "100%",
+    background: "#FFFFFF",
+    borderRadius: 10,
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+    boxSizing: "border-box",
+    display: "flex",
+    marginBottom: 20,
   },
   messageIcon: {
     marginTop: 27,
@@ -25,9 +32,9 @@ const useStyles = makeStyles(theme => ({
   mainBox: {
     display: "flex",
     flexDirection: "column",
-    width: "Calc(100% - 60px)"
+    width: "Calc(100% - 60px)",
   },
-  favoriteWrapper: {
+  favoriteBtnWrapper: {
     textAlign: "right",
   },
   favoriteBtn: {
@@ -51,11 +58,18 @@ const useStyles = makeStyles(theme => ({
     marginBottom: 13,
     wordWrap: "break-word",
   },
+  favText: {
+    marginTop: 5,
+    marginBottom: 10,
+    fontSize: 14,
+    lineHeight: "20px",
+    wordWrap: "break-word",
+  },
   info: {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-between",
-    alignItems: "center"
+    alignItems: "center",
   },
   hours: {
     fontSize: 10,
@@ -70,10 +84,13 @@ const useStyles = makeStyles(theme => ({
     lineHeight: "14px",
     letterSpacing: "2px",
     textTransform: "uppercase",
-    backgroundColor: "#FFF",
+    backgroundColor: "#FFFFFF",
     borderRadius: 6,
     padding: "6px 20px",
     marginTop: 10,
+  },
+  favCategory: {
+    backgroundColor: "#F8F8F8",
   }
 }));
 
