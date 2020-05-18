@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chuck_norris_jokes/static/css/main.77a4efda.chunk.css",
-    "main.js": "/chuck_norris_jokes/static/js/main.462c7612.chunk.js",
-    "main.js.map": "/chuck_norris_jokes/static/js/main.462c7612.chunk.js.map",
-    "runtime-main.js": "/chuck_norris_jokes/static/js/runtime-main.0b5a966d.js",
-    "runtime-main.js.map": "/chuck_norris_jokes/static/js/runtime-main.0b5a966d.js.map",
-    "static/js/2.ddd260df.chunk.js": "/chuck_norris_jokes/static/js/2.ddd260df.chunk.js",
-    "static/js/2.ddd260df.chunk.js.map": "/chuck_norris_jokes/static/js/2.ddd260df.chunk.js.map",
-    "index.html": "/chuck_norris_jokes/index.html",
-    "precache-manifest.a1d0aecd55d5cf4885e8b63e4b94cfc6.js": "/chuck_norris_jokes/precache-manifest.a1d0aecd55d5cf4885e8b63e4b94cfc6.js",
-    "service-worker.js": "/chuck_norris_jokes/service-worker.js",
-    "static/css/main.77a4efda.chunk.css.map": "/chuck_norris_jokes/static/css/main.77a4efda.chunk.css.map",
-    "static/js/2.ddd260df.chunk.js.LICENSE.txt": "/chuck_norris_jokes/static/js/2.ddd260df.chunk.js.LICENSE.txt"
+    "main.css": "/chuck-norris/static/css/main.77a4efda.chunk.css",
+    "main.js": "/chuck-norris/static/js/main.48a64349.chunk.js",
+    "main.js.map": "/chuck-norris/static/js/main.48a64349.chunk.js.map",
+    "runtime-main.js": "/chuck-norris/static/js/runtime-main.4464db1b.js",
+    "runtime-main.js.map": "/chuck-norris/static/js/runtime-main.4464db1b.js.map",
+    "static/js/2.ddd260df.chunk.js": "/chuck-norris/static/js/2.ddd260df.chunk.js",
+    "static/js/2.ddd260df.chunk.js.map": "/chuck-norris/static/js/2.ddd260df.chunk.js.map",
+    "index.html": "/chuck-norris/index.html",
+    "precache-manifest.529c9a1dafea94ce6568c949eec791bb.js": "/chuck-norris/precache-manifest.529c9a1dafea94ce6568c949eec791bb.js",
+    "service-worker.js": "/chuck-norris/service-worker.js",
+    "static/css/main.77a4efda.chunk.css.map": "/chuck-norris/static/css/main.77a4efda.chunk.css.map",
+    "static/js/2.ddd260df.chunk.js.LICENSE.txt": "/chuck-norris/static/js/2.ddd260df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b5a966d.js",
+    "static/js/runtime-main.4464db1b.js",
     "static/js/2.ddd260df.chunk.js",
     "static/css/main.77a4efda.chunk.css",
-    "static/js/main.462c7612.chunk.js"
+    "static/js/main.48a64349.chunk.js"
   ]
 }
