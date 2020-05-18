@@ -2,7 +2,7 @@
   "name": "chuck_norris_jokes_client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://EugenMarkov.github.io/chuck_norris_jokes",
+  "homepage": "http://EugenMarkov.github.io/chuck-norris",
   "author": "Eugen Markov",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
@@ -55,7 +55,6 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^6.0.0",
-    "gh-pages": "^2.2.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.18.2",
     "style-loader": "^1.0.1"
