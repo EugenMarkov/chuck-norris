@@ -5,7 +5,7 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 480,
     width: "calc(380px + (100vw - 380px) * 100/454)",
     padding: "calc(20px + (100vw - 380px) * 20/454)",
-    backgroundColor: "#F8F8F8",
+    backgroundColor: theme.palette.primary.light,
     flex: 1,
     boxSizing: "border-box",
     [theme.breakpoints.down("xs")]: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   title: {
-    color: "#ABABAB",
+    color: theme.palette.secondary.main,
     fontWeight: 500,
   },
   cancelBtnWrapper: {

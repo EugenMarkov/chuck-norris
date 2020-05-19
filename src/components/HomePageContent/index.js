@@ -1,5 +1,6 @@
 import React from "react";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import ErrorCatcher from "../common/ErrorCatcher";
 import RandomJokeSection from "../RandomJokeSection";
 import FavoriteSection from "../FavoriteSection";
 import useStyles from "./useStyles";
@@ -10,8 +11,10 @@ export default function HomePageContent() {
 
   return (
     <div className={classes.root}>
-      <RandomJokeSection />
-      {matches && <FavoriteSection />}
+      <ErrorCatcher>
+        <RandomJokeSection />
+        {matches && <FavoriteSection />}
+      </ErrorCatcher>
     </div>
   );
 }

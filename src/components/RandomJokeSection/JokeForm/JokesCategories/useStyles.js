@@ -1,12 +1,12 @@
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
     marginTop: 12,
     marginBottom: 2,
   },
   btn: {
-    color: "#ABABAB",
+    color: theme.palette.secondary.main,
     fontSize: 12,
     fontWeight: 500,
     lineHeight: "16px",
@@ -18,9 +18,12 @@ const useStyles = makeStyles({
     borderRadius: 6,
   },
   btn_active: {
-    color: "#333333",
-    background:"#F8F8F8",
-  }
-});
+    color: theme.palette.primary.main,
+    background: theme.palette.primary.light,
+  },
+  errorMessage: {
+    color: "red",
+  },
+}));
 
 export default useStyles;

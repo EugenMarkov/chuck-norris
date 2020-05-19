@@ -11,6 +11,17 @@ const theme = createMuiTheme({
       xl: 1440,
     },
   },
+  palette: {
+    primary: {
+      main: "#333333",
+      light: "#F8F8F8",
+      decor: "#8EA7FF",
+    },
+    secondary: {
+      main: "#ABABAB",
+      light: "#FFFFFF",
+    }
+  },
   spacing: 8,
   typography: {
     h2: {

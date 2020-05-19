@@ -6,7 +6,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: 40,
     width: "100%",
     maxWidth: 754,
-    background: "#F8F8F8",
+    background: theme.palette.primary.light,
     borderRadius: 20,
     boxShadow: "none",
     boxSizing: "border-box",
@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
   favWrapper: {
     padding: 20,
     width: "100%",
-    background: "#FFFFFF",
+    background: theme.palette.secondary.light,
     borderRadius: 10,
     boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
     boxSizing: "border-box",
@@ -43,13 +43,13 @@ const useStyles = makeStyles(theme => ({
     marginRight: -12,
   },
   id: {
-    color: "#ABABAB",
+    color: theme.palette.secondary.main,
     fontSize: 10,
     fontWeight: 500,
     lineHeight: "14px",
   },
   link: {
-    color: "#8EA7FF",
+    color: theme.palette.primary.decor,
     marginLeft: 3,
     marginRight: 3,
   },
@@ -74,7 +74,7 @@ const useStyles = makeStyles(theme => ({
   hours: {
     fontSize: 10,
     lineHeight: "14px",
-    color: "#ABABAB",
+    color: theme.palette.secondary.main,
     marginRight: 10,
     marginTop: 10,
   },
@@ -84,13 +84,13 @@ const useStyles = makeStyles(theme => ({
     lineHeight: "14px",
     letterSpacing: "2px",
     textTransform: "uppercase",
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.palette.secondary.light,
     borderRadius: 6,
     padding: "6px 20px",
     marginTop: 10,
   },
   favCategory: {
-    backgroundColor: "#F8F8F8",
+    backgroundColor: theme.palette.primary.light,
   }
 }));
 
