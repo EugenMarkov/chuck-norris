@@ -9,7 +9,8 @@
 
 - React styles & libraries: Material-UI, axios
 
- You can try to find joke about Chuck Norris here => https://jokes-chucknorris.herokuapp.com/
+ You can try to find joke about Chuck Norris here => https://jokes-chucknorris.herokuapp.com/ .
+ 
  Chuck Norris Jokes is simple application.
  You can get random joke, get joke by category, search jokes with query.
  You can add and remove favorite jokes. 
